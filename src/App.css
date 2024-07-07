@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+.sidebar {
+  min-height: 800px;
+  max-width: 500px;
+}
+.on:hover {
+  border-radius: 6px;
+  background-color: #edbf40;
+}
+.pos {
+  position: sticky;
+  top: 0px;
+}
+.head:hover {
+  border-radius: 5%;
+  background-color: rgb(249, 192, 59);
+}
+.cardd {
+  background-color: #edbf40;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+.cardd:hover {
+  background-color: rgba(250, 183, 60, 0.922);
+  scale: 1.05;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+.hastag {
+  margin: 0px 3px;
+}
+.form {
+  background-color: #edbf40;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+}
+.forminput:hover {
+  background-color: #acd3ee;
+}
+.fly {
+  width: 100px;
+  display: flex;
+}
+.hide {
+  opacity: 0;
+  width: 250px;
+}
+.fly:hover + .hide {
+  opacity: 1;
+
+  transition-duration: 1.5s;
+}
+.A {
+  opacity: 0;
+}
+
+.welcome {
+  margin: 15px;
+}
+.welcome:hover + .A {
+  opacity: 1;
+  transition-duration: 1s;
+}
